@@ -1,11 +1,8 @@
-/* --- MOTYW CZERWONY (RED) --- */
 
-/* Zmiana T£A CA£EGO EKRANU */
 #theme-red:checked ~ .page-wrapper {
-    background-color: #ffebeb; /* Jasnoczerwone t³o strony */
+    background-color: #ffebeb; 
 }
 
-    /* Kolory wewn¹trz bia³ego CV */
     #theme-red:checked ~ .page-wrapper .cv-content {
         color: #4a1c1c;
     }
@@ -16,7 +13,6 @@
         color: #b71c1c;
     }
 
-    /* Akcenty w nag³ówku i ramka zdjêcia */
     #theme-red:checked ~ .page-wrapper header {
         border-bottom-color: #b71c1c;
     }
@@ -25,7 +21,6 @@
             border-color: #b71c1c;
         }
 
-    /* Linki */
     #theme-red:checked ~ .page-wrapper a {
         color: #f44336;
         text-decoration: none;
@@ -35,7 +30,6 @@
             text-decoration: underline;
         }
 
-    /* Styl artyku³ów dla czerwonego */
     #theme-red:checked ~ .page-wrapper article {
         border-left-color: #f44336;
         background-color: #fffafb;
